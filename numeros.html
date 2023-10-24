@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparacion de numeros</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <div id="titulo">
+        <h1>Practica de comparacion de numeros</h1>
+    </div>    
+
+    <div class="tarjeta">
+        <h4 class="entrada">
+            <label for="num1">Numero 1</label>
+            <input id="num1" type="number" nombre="numero1">
+        </h4>
+        <h4 class="entrada">
+            <label for="num2">Numero 2</label>
+            <input id="num2" type="number" nombre="numero2">
+        </h4>
+        <h4 class="entrada">
+            <label for="num3">Numero 3</label>
+            <input id="num3" type="number" nombre="numero3">
+        </h4>
+        <button id="btnAnalizar" class="tarjeta" type="button" value="">Analizar</button>
+    </div>
+
+    <div class="tarjeta">
+        <div class="entrada">
+            <p>Tus numeros ordenados de mayor a menor</p>
+            <p id="resultadoMayorMenor"> </p>
+        </div>
+
+        <div class="entrada">
+            <p>Tus numeros ordenados de menor a mayor</p>
+            <p id="resultadoMenorMayor"></p>
+        </div>
+       
+    
+    </div>
+
+    <script src="numeros.js"></script>
+</body>
+</html>
